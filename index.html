@@ -10,13 +10,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&family=Roboto+Mono:ital@0;1&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="top">
 
         <div class="content-wrap">
+            <nav>
+                <a href="#top">Back to Top</a>
+                <a href="#work">Work</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+                <a href="pdf">Download pdf</a>
+                <a href="#" onclick="window.print(); return false;">Print</a>
+            </nav>
             <img src="images/resume-picture.jpeg" alt="Toumas Solyman" class="column-narrow">
             <div class="column-wide">
                 <h1>Toumas Solyman</h1>
@@ -31,7 +40,7 @@
 
     <main>
         <!-- // Work Experience -->
-        <section class="work">
+        <section class="work" id="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -68,7 +77,7 @@
 
 
         <!-- // Education -->
-        <section class="education">
+        <section class="education" id="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
@@ -87,7 +96,7 @@
     </main>
 
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
@@ -100,10 +109,13 @@
                     <li>
                         <a href="https://github.com/Toumas12">GitHub Profile</a>
                     </li>
+
                 </ul>
+
             </div>
 
             <p>Copyright 2025 by Toumas Solyman</p>
+            <i class="fa-chisel fa-regular fa-laptop fa-2xl"></i>
         </div>
     </footer>
 </body>

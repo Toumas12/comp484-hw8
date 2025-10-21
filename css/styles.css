@@ -48,8 +48,13 @@ body {
 
 header {
     text-align: center;
-    background-color: #004080;
     color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-image:
+        linear-gradient(to bottom, rgba(0, 128, 255, 0.4), rgba(255, 255, 255, 0.1)),
+        url('../images/hw8-background.jpeg');
 }
 
 header img {
@@ -159,4 +164,23 @@ footer h2 {
 ------------------------------------*/
 ul {
     list-style-type: none;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
